@@ -4,13 +4,13 @@ body {
 .topnav {
     background-color: #508182;
     overflow: hidden;
-    padding: 20px;
+    padding: 40px;
     color: black;
 }
 .topnav a {
     display: flexbox;
     background-color:#5a868d;
-    padding: 20px;
+    padding: 40px;
     font-size: 17px;
     text-decoration:none;
     color: black;
@@ -21,18 +21,14 @@ body {
 .google {
     display: flexbox;
     justify-content: flex-end;
-   
-  
 }
+
 .linkedin {
     display: flexbox;
     justify-content: flex-end;
-    margin-right: 10px;
-    color: blue;
-    
-    
-    
+    margin-right: 10px;   
 }
+
 
 .overlayText {
     position: absolute;
@@ -41,9 +37,10 @@ body {
     z-index: 1;
   }
 #centerText {
-    color: rgb(232, 242, 242);
+    color: rgb(250, 254, 254);
     font-family:'Lucida Sans';
-    font-size: 100px;
+    font-size: 130px;
+    text-shadow: #69a8eb 2px 3px;
     
 }
 #text1 {
@@ -51,6 +48,7 @@ body {
     font-family:'Lucida Sans';
     font-size: 60px;
     font-style: bold italic;
+    text-shadow: #157e4f 2px 3px;
 }
 .container{
     display: inline-block;

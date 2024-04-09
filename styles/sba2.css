@@ -1,11 +1,14 @@
+body {
+    background-color: #c9c8cd;
+    text-align: center;}
 .topnav {
-    background-color: #55aeb1;
+    background-color: #36596f;
     overflow: hidden;
     padding: 20px;
 }
 .topnav a {
     display: flexbox;
-    background-color: #66b6b6;
+    background-color: #3187ab;
     padding: 20px;
     font-size: 17px;
     text-decoration:none;
@@ -30,11 +33,12 @@
 .overlayText {
     position: absolute;
     top: 10%;
-    left: 30%;
+    left: 10%;
     z-index: 1;
   }
 #centerText {
-    color: rgb(232, 242, 242);
+    color: #d6f2fa;
+    text-shadow: rgb(72, 54, 12) 3px 2px;
     font-family:'Lucida Sans';
     font-size: 100px;
     
@@ -45,13 +49,30 @@
     font-size: 60px;
     font-style: bold italic;
 }
+h1 {
+    font-size: 100px;
+}
 .container{
-    display: inline-block;
+    display:inline-block;
     column-gap: 50px;
-    width: 800px;
+    width: 500px;
     height: 500px;
-    padding: 50px;
-    margin-left:6%; 
-    border: black;
+    padding: 20px;
+    margin-left:3%; 
+    /* border: black; */
+    color:#193d4d;
+    font-size: 40px;
+    font-style: bold;
 
+}
+button {
+    color: #105182;
+    background-color: #0baef4;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 45%;
+}
+.one {
+    font-size: 15px;
+    color: black;
 }
