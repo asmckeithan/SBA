@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="../styles/sba.css">
 </head>
 <body>
-    <div class="topnav">
-        <a class="active" href="index.html">Home</a>|
-        <a href="page2.html">Trips</a>|
-        <a href="#contact">Schedule</a>|
-        <a href="#about">Contact</a>
-        <label for="fname">Search</label> 
-        <input type="text" id="fname" name="search" placeholder="Type Here">
-            <a href="#" class="google"><i class="fa fa-google"></i></a> 
-            <a href="https://www.linkedin.com/in/amckeithan" class="linkedin"><i class="fa fa-linkedin"></i></a>
-      </div>
+    <div id="nav">
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="page2.html">Trips</a>
+            <a href="page3.html">Schedule</a>
+            <a href="https://anneshamckeithan.wixsite.com/my-site">Contact</a>  
+            <div class="right">     
+                <a href="#" class="google"><i class="fa fa-google"></i></a> 
+                <a href="https://www.linkedin.com/in/amckeithan" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <label for="fname">Search</label> 
+                <input type="text" id="fname" name="search" placeholder="Type Here">
+            </div>  
+        </div>   
+    </div>
     <div class="video-container">
         <video width="100%" height="25%" margin="5px"autoplay loop>
         <source src="../images/Beach.mp4" type="video/mp4">
@@ -27,17 +31,26 @@
             <p id="text1"> Let us help you plan it!</p>
           </div>
     </div>
-    <h1> A</h1>
+    <h1> The Beach is calling your name
+        <label for="destinations">:</label>
+        <select name="destinations" id="destinations">
+        <option value="Jamaica">Jamaica</option>
+        <option value="Puerto">Puerto Rico</option>
+        <option value="Mexico" selected>Mexico</option>
+        <option value="Aruba">Aruba</option>
+        </select>
+    </h1>  
+      
     <div class="container"> JAMAICA
-        <img src="../images/jamaica.jpg" width="450px" height="400" alt="jamaica"> </div>
+        <img src="../images/jamaica.jpg" width="600px" height="500" alt="jamaica"> </div>
     <div class="container"> HAWAII 
-        <img src="/images/hawaii.jpg" alt="hawaii" width="450px" height="400">
+        <img src="/images/hawaii.jpg" alt="hawaii" width="600px" height="500">
     </div>
     <div class="container"> PUERTO RICO 
-        <img src="/images/puerto.jpg" alt="puerto" width="450px" height="400">
+        <img src="/images/puerto.jpg" alt="puerto" width="600px" height="500">
     </div>
     <div class="container"> MEXICO
-        <iframe src="https://giphy.com/embed/9GhVS2ZVaI1Yk" width="580" height="460" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p> </div>
+        <iframe src="https://giphy.com/embed/9GhVS2ZVaI1Yk" width="600" height="500" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p> </div>
     <style>
         .EOD {
             display: flex;

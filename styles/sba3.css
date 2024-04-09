@@ -1,0 +1,47 @@
+body {
+    background-color: #c9c8cd;
+    text-align: center;}
+.topnav {
+    background-color: #a8cad3;
+    overflow: hidden;
+    padding: 20px;
+}
+.topnav a {
+    display: flexbox;
+    background-color: #bed4d2;
+    padding: 20px;
+    font-size: 17px;
+    text-decoration:none;
+}
+.topnav a:hover {
+    background-color: azure;
+}
+.google {
+    display: flexbox;
+    justify-content: flex-end;
+   
+  
+}
+.linkedin {
+    display: flexbox;
+    justify-content: flex-end;
+    margin-right: 10px;
+    
+    
+}
+
+.overlayText {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+  }
+#centerText {
+    color: #019ecf;
+    text-shadow: rgb(72, 54, 12) 3px 2px;
+    font-family:'Lucida Sans';
+    font-size: 100px;
+    
+}
+td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;

@@ -1,23 +1,35 @@
 body {
     background-color: #ae8b76;
+    text-align: center;
 }
 .topnav {
     background-color: #508182;
     overflow: hidden;
-    padding: 40px;
+    padding: 50px;
     color: black;
 }
 .topnav a {
     display: flexbox;
-    background-color:#5a868d;
-    padding: 40px;
+    background-color:#79a19b;
+    padding: 25px;
     font-size: 17px;
     text-decoration:none;
     color: black;
+    margin: 1%;
 }
 .topnav a:hover {
     background-color: azure;
 }
+.right{
+display: inline;
+position: relative;
+justify-content: flex-end;
+margin-left: 20%;
+}
+.e {
+    image-rendering: auto;
+}
+
 .google {
     display: flexbox;
     justify-content: flex-end;
@@ -33,22 +45,35 @@ body {
 .overlayText {
     position: absolute;
     top: 10%;
-    left: 30%;
+    left: 25%;
     z-index: 1;
   }
 #centerText {
     color: rgb(250, 254, 254);
     font-family:'Lucida Sans';
-    font-size: 130px;
-    text-shadow: #69a8eb 2px 3px;
+    font-size: 140px;
+    text-shadow: #69a8eb 4px 3px;
     
 }
+h1{
+    font-size: 51px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-shadow: #4cb79c 2px 1px;
+}
+#destinations {
+    background-color: rgb(225, 220, 211);
+    width: 15%;
+    box-shadow:0px 2px 2px 1px #0f1311;
+    border-radius: 25px;
+}
 #text1 {
-    color: rgb(3, 3, 18);
+    color: #ede8e5;
     font-family:'Lucida Sans';
-    font-size: 60px;
+    font-size: 80px;
     font-style: bold italic;
-    text-shadow: #157e4f 2px 3px;
+    text-shadow: #0f1311 4px 4px;
 }
 .container{
     display: inline-block;
