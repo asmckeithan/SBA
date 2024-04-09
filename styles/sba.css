@@ -2,22 +2,30 @@
 .topnav {
     background-color: #55aeb1;
     overflow: hidden;
-    padding: 30px;
+    padding: 20px;
 }
 .topnav a {
     display: flexbox;
     background-color: #66b6b6;
-    padding: 30px;
+    padding: 20px;
     font-size: 17px;
     text-decoration:none;
 }
 .topnav a:hover {
     background-color: azure;
 }
-.iconbar {
-    display: flex;
+.google {
+    display: flexbox;
     justify-content: flex-end;
-    align-items: flex-end;
+   
+  
+}
+.linkedin {
+    display: flexbox;
+    justify-content: flex-end;
+    margin-right: 10px;
+    
+    
 }
 
 .overlayText {
