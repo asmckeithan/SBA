@@ -1,0 +1,47 @@
+.topnav {
+    background-color: #55aeb1;
+    overflow: hidden;
+    padding: 20px;
+}
+.topnav a {
+    display: flexbox;
+    background-color: #66b6b6;
+    padding: 20px;
+    font-size: 17px;
+    text-decoration:none;
+}
+.topnav a:hover {
+    background-color: azure;
+}
+.google {
+    display: flexbox;
+    justify-content: flex-end;
+   
+  
+}
+.linkedin {
+    display: flexbox;
+    justify-content: flex-end;
+    margin-right: 10px;
+    
+    
+}
+
+.overlayText {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    z-index: 1;
+  }
+#centerText {
+    color: rgb(232, 242, 242);
+    font-family:'Lucida Sans';
+    font-size: 100px;
+    
+}
+#text1 {
+    color: rgb(3, 3, 18);
+    font-family:'Lucida Sans';
+    font-size: 60px;
+    font-style: bold italic;
+}

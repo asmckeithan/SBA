@@ -31,14 +31,20 @@
 .overlayText {
     position: absolute;
     top: 10%;
-    left: 20%;
+    left: 30%;
     z-index: 1;
-    color: aliceblue;
   }
 #centerText {
-    color: aqua;
-    font-size: 75px;
-    align-items: center;
+    color: rgb(232, 242, 242);
+    font-family:'Lucida Sans';
+    font-size: 100px;
+    
+}
+#text1 {
+    color: rgb(3, 3, 18);
+    font-family:'Lucida Sans';
+    font-size: 60px;
+    font-style: bold italic;
 }
   /* #topText {
     color: rgb(167, 232, 241);
