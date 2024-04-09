@@ -37,11 +37,21 @@ body {
     z-index: 1;
   }
 #centerText {
-    color: #019ecf;
-    text-shadow: rgb(72, 54, 12) 3px 2px;
+    color: #0f3a47;
+    text-shadow: rgb(214, 189, 45) 3px 4px;
     font-family:'Lucida Sans';
     font-size: 100px;
     
 }
+th, td {
+    padding: 4%;
+    margin: auto;
+    width: 500px;
+  }
 td:nth-child(even), th:nth-child(even) {
-    background-color: #D6EEEE;
+    background-color: #6faabb;}
+h2 {
+    color: #0f3a47;
+    text-shadow: rgb(214, 189, 45) 3px 4px;
+    font-size: 40px;
+}
