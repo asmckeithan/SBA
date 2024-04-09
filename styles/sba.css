@@ -1,0 +1,34 @@
+
+.topnav {
+    background-color: #55aeb1;
+    overflow: hidden;
+    padding: 30px;
+}
+.topnav a {
+    display: flexbox;
+    background-color: #66b6b6;
+    padding: 30px;
+    font-size: 17px;
+    text-decoration:none;
+}
+.topnav a:hover {
+    background-color: azure;
+}
+
+.overlayText {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: 1;
+    color: aliceblue;
+  }
+#centerText {
+    color: aqua;
+    font-size: 75px;
+    align-items: center;
+}
+  /* #topText {
+    color: rgb(167, 232, 241);
+    font-size: 20px;
+    align-self: center;
+  } */
