@@ -55,12 +55,10 @@ body {
 .container{
     display: inline-block;
     column-gap: 50px;
-    width: 500px;
+    width: 800px;
     height: 500px;
     padding: 50px;
-    margin: 1%;
-    border: 1px solid black ;
-    justify-content: center;
-    
-   
+    margin-left:6%; 
+    border: black;
+
 }

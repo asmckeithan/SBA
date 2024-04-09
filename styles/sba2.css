@@ -45,3 +45,13 @@
     font-size: 60px;
     font-style: bold italic;
 }
+.container{
+    display: inline-block;
+    column-gap: 50px;
+    width: 800px;
+    height: 500px;
+    padding: 50px;
+    margin-left:6%; 
+    border: black;
+
+}
